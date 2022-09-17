@@ -1,0 +1,12 @@
+
+---- Run Server (http://localhost:8000/) ----
+npm init -y
+"start": "nodemon app.js"
+npm install express
+npm install body-parser
+npm start
+tree -I node_modules
+
+
+nodemon --exec npm start
+npm install nodemon -g
